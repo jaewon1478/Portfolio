@@ -1,10 +1,30 @@
 /* Global */
 :root {
   /* color */
+  /* 홈페이지에 전반적으로 사용할 색깔들을 이곳에 정의하기 */
+  --color-white: #ffffff;
+  --color-blue: #73aace;
+  --color-black: #000000;
+  --color-grey: #616161;
 
   /* Font Size */
+  --font-large: 48px;
+  --font-medium: 28px;
+  --font-regular: 18px;
+  --font-small: 16px;
+  --font-micro: 14px;
 
   /* Font weight */
+  --weight-bold: 700;
+  --weight-semi-bold: 600;
+  --weight-regular: 400;
 
   /* Size */
 }
+
+/* Universal tags */
+* {
+  box-sizing: border-box;
+}
+
+/* Typography */
