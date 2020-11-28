@@ -6,6 +6,7 @@
   --color-blue: #73aace;
   --color-black: #000000;
   --color-grey: #616161;
+  --color-light-blue: #add8e6;
 
   /* Font Size */
   --font-large: 48px;
@@ -105,6 +106,19 @@ p {
 }
 
 .navbar_menu__item:hover {
-  background-color: var(--color-grey);
-  /* 색깔 dark blue 찾아서 고치기 */
+  background-color: var(--color-light-blue);
+}
+
+/* Home */
+#home {
+  background: url("imgs/Background.png") center/cover no-repeat;
+  padding: 40px;
+  text-align: center;
+}
+
+.home__avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 2px solid var(--color-white);
 }
