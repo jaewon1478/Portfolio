@@ -14,6 +14,8 @@
   --color-yellow: #fff7d1;
   --color-orange: #feb546;
   --color-black: #000000;
+  --color-navbar-grey: #24292e;
+  --color-background-grey: #666666;
 
   /* Font Size */
   --font-large: 48px;
@@ -77,7 +79,7 @@ h1 {
 }
 
 h2 {
-  font-size: var(--font-regular);
+  font-size: var(--font-medium);
   font-weight: var(--weight-semi-bold);
   color: var(--color-black);
   margin: 8px 0;
@@ -101,7 +103,7 @@ p {
 #navbar {
   display: flex;
   justify-content: space-between;
-  background-color: var(--color-blue);
+  background-color: var(--color-navbar-grey);
   align-items: center;
   padding: 16px;
 }
@@ -132,7 +134,7 @@ p {
 
 /* Home */
 #home {
-  background: url("imgs/Background.png") center/cover no-repeat;
+  background-color: var(--color-background-grey);
   padding: 40px;
   text-align: center;
 }
@@ -405,4 +407,29 @@ p {
   margin-left: -12px;
   margin-top: 8px;
   background-color: var(--color-dark-white);
+}
+
+/* Contact */
+#contact {
+  background-color: var(--color-navbar-grey);
+}
+
+.contact__title,
+.contact__email,
+.contact__rights {
+  color: var(--color-white);
+}
+
+.contact__title {
+  margin: 32px 0;
+}
+
+.contact__links {
+  font-size: var(--font-large);
+  margin: 24px 0;
+}
+
+.contact__links i:hover {
+  transform: scale(1.1);
+  transition: all var(--animation-duration) ease-in;
 }
