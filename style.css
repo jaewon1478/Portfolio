@@ -238,16 +238,9 @@ p {
   margin-top: 60px;
 }
 
-.job,
 .school {
   display: flex;
   align-items: center;
-}
-
-.job img {
-  width: 100px;
-  height: 50px;
-  object-fit: cover;
 }
 
 .school img {
@@ -256,18 +249,15 @@ p {
   object-fit: scale-down;
 }
 
-.job__description,
 .school__description {
   margin: 0 16px;
   text-align: left;
 }
 
-.job__name,
-.school__name__and__major {
+.school__name {
   font-size: var(--font-small);
 }
 
-.job__period,
 .school__period {
   font-size: var(--font-micro);
 }
