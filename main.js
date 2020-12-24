@@ -15,6 +15,20 @@ document.addEventListener('scroll', () => {
     }
 });
 
+//Handle scrolling when tapping on the navber menu(메뉴 클릭)
+const navbarMenu = document.querySelector('.navbar__menu');
+navbarMenu = addEventListener('click', (event) => {
+    const target = event.target;
+    const link = target.dataset.link;
+    if(link == null) {
+        return;
+    }
+    console.log(event.target.dataset.link);
+    const scrollTo = document.querySelector(link);
+    scrollTo.scrollIntoView({behavior: "smooth"});
+    
+});
+
 //Make menuBar when screen is going to small
 const toggleBtn = document.querySelector('.navbar__toggleBtn');
 const menu = document.querySelector('.navbar__menu');

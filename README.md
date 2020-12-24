@@ -1,2 +1,3 @@
 # Portfolio
- Jaewon's Portfolio
+ Goal: Making Responsive WebSite
+
